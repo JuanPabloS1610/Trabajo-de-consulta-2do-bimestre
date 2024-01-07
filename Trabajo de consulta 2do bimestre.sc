@@ -16,7 +16,4 @@
     genero == 'F' && nota >= 18 }.map { case (nombre, _, nota, _) => (nombre, nota)
 
   }
-
-
-
   filtarcionEstudiantes.foreach { case (nombre, nota) =>  print(nombre, nota)}
