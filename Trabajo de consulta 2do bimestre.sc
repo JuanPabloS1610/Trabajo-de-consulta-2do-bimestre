@@ -2,7 +2,7 @@ import io.reactivex.rxjava3.core.Observable;
 
 import java.util.concurrent.TimeUnit;
 
-public class ReactiveExample {
+public class ejemplo_reactivo {
 
     public static void main(String[] args) {
 
