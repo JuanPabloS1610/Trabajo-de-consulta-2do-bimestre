@@ -21,7 +21,7 @@ public class ejemplo_reactivo {
 
         // Convertir la lista en un flujo observable
         Observable.fromArray(data)
-                // Filtrar por género 'F'
+                // Filtrar por género 'M'
                 .filter(row -> (char) row[3] == 'M')
                 // Filtrar por edad mayor a 18
                 .filter(row -> (int) row[2] >= 18)
